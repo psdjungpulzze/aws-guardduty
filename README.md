@@ -4,7 +4,7 @@ Extract data from AWS Guard Duty
 # API AutoFlow Version:
 Configuration config.json was created using AutoFlow version __0.2.5__
 
-# Storing data:
+# Extracting data from AWS Guard Duty:
 
 ## Step 1. Create flow
 * Create an HTTP Server
