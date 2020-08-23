@@ -1,5 +1,5 @@
 # Summary
-* Extract data from AWS Guard Duty
+Extract data from AWS Guard Duty
 
 # API AutoFlow Version:
 Configuration config.json was created using AutoFlow version __0.2.5__
