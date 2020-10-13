@@ -54,7 +54,7 @@ The output is stored back into the variable result.
 > * path:             _/detector/<your-detectorId>/findings/get_
 > * action:   
 > * parameters:
-> * body:             _result_
+> * body:             [R][S] _result_
 > * string
 > * region:           _us-west-2_
 > * access-key-id:    _your-aws-secret-access-key_
