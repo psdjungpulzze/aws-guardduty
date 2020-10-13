@@ -53,7 +53,7 @@ The output is stored back into the variable result.
 > * region:           _us-west-2_
 > * access-key-id:    _your-aws-secret-access-key_
 > * secret-access-key: _your-aws-access-key-id_
-u> * se-mock-result:
+> * se-mock-result:
 > * mock-result:
 
 #### Output:
