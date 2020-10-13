@@ -38,6 +38,12 @@ This action extracts just the issues list from AWS Guard Duty by using the API /
 #### Output:
 > * output-location:   _result_
 
+_####How to get access-key-id and secret-access-key_
+https://aws.amazon.com/blogs/security/wheres-my-secret-access-key/
+
+_####Guard Duity Actions_
+https://docs.aws.amazon.com/guardduty/latest/APIReference/API_GetFindings.html
+
 ## Step 3. Get Guard Duty Issues Lists
 Using the Guard Duty issues list from the previous step, this action retrieves the details of each issue by using the API /detector/_detector_id_/findings/GET.
 Note that this API takes in the issues list in the request body (which was obtain from previous action).
