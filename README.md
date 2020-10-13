@@ -30,9 +30,9 @@ This action extracts just the issues list from AWS Guard Duty by using the API /
 > * body:
 > * string
 > * region:           _us-west-2_
-> * access-key-id:    _<your-aws-secret-access-key>_
-> * secret-access-key: _<your-aws-access-key-id>_
-u> * se-mock-result:
+> * access-key-id:    _your-aws-secret-access-key_
+> * secret-access-key: _your-aws-access-key-id_
+> * se-mock-result:
 > * mock-result:
 
 #### Output:
@@ -51,8 +51,8 @@ The output is stored back into the variable result.
 > * body:             _result_
 > * string
 > * region:           _us-west-2_
-> * access-key-id:    _<your-aws-secret-access-key>_
-> * secret-access-key: _<your-aws-access-key-id>_
+> * access-key-id:    _your-aws-secret-access-key_
+> * secret-access-key: _your-aws-access-key-id_
 u> * se-mock-result:
 > * mock-result:
 
