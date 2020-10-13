@@ -22,9 +22,9 @@ Is you have questions about this example, feel free to post your question on the
 This action extracts just the issues list from AWS Guard Duty by using the API /detector/_detector_id_/findings
 
 #### Properties:
-> * service:          guardduty
-> * method:           POST
-> * path:             /detector/_<your-detectorId>_/findings
+> * service:          _guardduty_
+> * method:           _POST_
+> * path:             _/detector/<your-detectorId>/findings_
 > * action:   
 > * parameters:
 > * body:
@@ -49,9 +49,9 @@ Using the Guard Duty issues list from the previous step, this action retrieves t
 Note that this API takes in the issues list in the request body (which was obtain from previous action).
 The output is stored back into the variable result.
 
-> * service:          guardduty
-> * method:           POST
-> * path:             /detector/_<your-detectorId>_/findings/get
+> * service:          _guardduty_
+> * method:           _POST_
+> * path:             _/detector/<your-detectorId>/findings/get_
 > * action:   
 > * parameters:
 > * body:             _result_
