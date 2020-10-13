@@ -24,7 +24,7 @@ This action extracts just the issues list from AWS Guard Duty by using the API /
 #### Properties:
 > * service:          _guardduty_
 > * method:           _POST_
-> * path:             _/detector/<your-detectorId>/findings_
+> * path:             _/detector/your-detectorId/findings_
 > * action:   
 > * parameters:
 > * body:
@@ -51,7 +51,7 @@ The output is stored back into the variable result.
 
 > * service:          _guardduty_
 > * method:           _POST_
-> * path:             _/detector/<your-detectorId>/findings/get_
+> * path:             _/detector/your-detectorId/findings/get_
 > * action:   
 > * parameters:
 > * body:             [R][S] _result_
